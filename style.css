@@ -13,12 +13,12 @@ body {
 
 h1 {
     font-family: 'Abril Fatface';
-    text-align: center; 
+    text-align: center;
 }
 
 h2 {
     font-family: 'Roboto Slab';
-    text-align:left;
+    text-align: left;
 }
 
 .newspaper-container {
@@ -48,8 +48,8 @@ a {
 }
 
 main img {
-    display:flex;
-    margin:auto;
+    display: flex;
+    margin: auto;
     width: 100%;
 }
 
@@ -64,9 +64,22 @@ section {
 }
 
 .more-articles {
-    display:flex;
-    margin:auto;
+    display: flex;
+    margin: auto;
     width: 100%;
-    padding:10px;
+    padding: 10px;
 
+}
+
+nav {
+    position: sticky;
+    top: 0;
+    background-color: white;
+}
+
+.extra-articles {
+    display: inline-flex;
+    padding: 1px;
+    margin: 0%;
+    width: 50%;
 }
